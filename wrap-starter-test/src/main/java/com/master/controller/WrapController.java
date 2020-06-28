@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class WrapController {
 
     @Autowired
-    private WrapService service;
+    private WrapService wrapService;
 
     @RequestMapping("/vialaner/{param}")
     public String wrapHandler(@PathVariable("param") String param){
-        return service.wrap(param);
+        return wrapService.wrap(param);
     }
 
 }
