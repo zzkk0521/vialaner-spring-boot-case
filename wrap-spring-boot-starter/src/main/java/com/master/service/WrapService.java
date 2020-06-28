@@ -12,6 +12,7 @@ public class WrapService {
     private String after;
 
     public String wrap(String param){
+        //System.out.println("vialaner_199206210521");
         return before + param + after;
     }
 
