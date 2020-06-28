@@ -13,6 +13,7 @@ public class WrapService {
 
     public String wrap(String param){
         System.out.println("vialaner_0521");
+        System.out.println("vialaner_0606");
         return before + param + after;
     }
 
