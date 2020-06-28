@@ -1,0 +1,6 @@
+wrap:
+  service:
+#    enabled: true  #前后缀开关
+#    enabled: false
+    prefix: AAA-
+    suffix: -BBB
